@@ -20,7 +20,8 @@
         android:layout_height="307dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"></LinearLayout>
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -28,6 +29,7 @@
         android:layout_height="wrap_content"
         android:text="Presioname"
         tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="480dp" />
+        tools:layout_editor_absoluteY="480dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
